@@ -38,5 +38,5 @@ if(Zcm_FOUND)
   install(TARGETS DataStreamZcm DataLoadZcm
           DESTINATION ${PJ_PLUGIN_INSTALL_DIRECTORY})
 else()
-  message("[Zcm] not found. Skipping plugin DataStreamZcma and DataLoadZcm.")
+  message("[Zcm] not found. Skipping plugin DataStreamZcm and DataLoadZcm.")
 endif()
